@@ -1,0 +1,4 @@
+redis-data
+redis-server.log
+.env
+.idea/
