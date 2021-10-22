@@ -1,4 +1,4 @@
-redis-data
-redis-server.log
+*.rdb
+*.log
 .env
 .idea/

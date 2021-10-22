@@ -1,2 +1,3 @@
 FROM redis:alpine
-COPY redis.conf /etc/redis/redis.conf
+MAINTAINER Novoseltcev Stanislav <https://github.com/st-a-novoseltcev/>
+COPY ./config/ /usr/local/etc/redis/
