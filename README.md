@@ -2,10 +2,10 @@
 Redis Deployment Repository using a container
 
 ## Usage
-To build a docker-compose you must have files in the repo root:
+To build a docker-compose you must have files in the dir ***./data***:
   - `.env`       - enviroment variables
-  - `redis-data` - redis volume
-  - `redis.log`  - shared redis log
+  - `dump.rdb` - redis volume
+  - `redis-server.log`  - shared redis log
 
 ```
 # Example .env
@@ -14,7 +14,7 @@ REDIS_PORT=6370
 REDIS_REPLICATION_MODE=master
 ```
 
-if you want, you can change `redis.conf`
+if you want, you can configurate redis: `conf/`
 
 ## Deploy
 ```
